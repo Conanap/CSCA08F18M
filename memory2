@@ -1,0 +1,10 @@
+a = "nugget"
+b = a + " in the bucket"
+c = "Na" * 5 + " batman!"
+d = a + b + c
+
+def makeNuggetsGreatAgain(input: str) -> str:
+  return input.replace('nugget', 'Nugget')
+
+c = makeNuggetsGreatAgain(d)
+print(c)
