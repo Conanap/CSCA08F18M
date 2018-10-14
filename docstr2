@@ -1,2 +1,2 @@
 def isAttractiveToMoth(comp: AnyObject) -> bool:
-  return type(comp) == 'Lamp'
+  return isinstance(comp, Lamp)
