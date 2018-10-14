@@ -1,0 +1,15 @@
+# Use Math.random (read doc)
+# hint: str indexes?
+
+"""
+return a randomly generated string of length length. If there is a seed, will use seed to seed the RNG.
+
+Preconditions:
+  length > -1
+
+Examples:
+  >>> randstr(4)
+  'ybme'
+  >>> randstr(10)
+  'doafntmelw'
+"""

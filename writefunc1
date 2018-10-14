@@ -1,0 +1,9 @@
+"""
+Return value appened by three 'doot's
+
+Examples:
+  >>> dootify('skeleton')
+  skeleton doot doot doot
+  >>> dootify('')
+  doot doot doot
+"""

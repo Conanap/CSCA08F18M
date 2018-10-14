@@ -1,0 +1,2 @@
+def findingNemo(ocean: str) -> int:
+  return ocean.index('Nemo')
