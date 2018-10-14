@@ -1,8 +1,8 @@
 def sometimesError(input: int) -> bool:
-  if input == 0 || input == 32:
+  if input == 0 or input == 32:
     raise Error
 
-  return input % 2
+  return input % 2 == 0
 
 # evaluate, and determine if they short circuit
 42 > 3 and sometimesError(0)
