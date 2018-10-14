@@ -1,0 +1,18 @@
+def sometimesError(input: int) -> bool:
+  if input == 0 || input == 32:
+    raise Error
+
+  return input % 2
+
+# evaluate, and determine if they short circuit
+42 > 3 and sometimesError(0)
+
+sometimesError(7) or True
+
+sometimesError(6) or True
+
+sometimesError(7) and False
+
+42 > 3 and True or sometimesError(32)
+
+sometimesError(32) or True
